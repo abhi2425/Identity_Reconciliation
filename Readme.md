@@ -10,7 +10,7 @@ This project implements a backend service for FluxKart.com that handles identity
 
 ## project structure
 
-  src/
+```  src/
 ├── controllers/
 │   └── contact_controller.ts
 ├── models/
@@ -23,3 +23,4 @@ This project implements a backend service for FluxKart.com that handles identity
 │   └── database.ts
 ├── app.ts
 └── server.ts
+```
