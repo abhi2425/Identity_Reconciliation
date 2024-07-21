@@ -6,6 +6,7 @@ export const identify = async (req: Request, res: Response) => {
     const { email, phoneNumber } = req.body;
 
     if (!email && !phoneNumber) {
+      console.log('Email or phone number is required');
       return res.status(400).json({ message: 'Email or phone number is required' });
     }
 
