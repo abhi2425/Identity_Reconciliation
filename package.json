@@ -1,8 +1,8 @@
 {
   "name": "identity_reconciliation",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A backend service for identity reconciliation on FluxKart.com",
+  "main": "dist/server.js",
   "scripts": {
     "dev": "nodemon --exec ts-node src/server.ts",
     "build": "tsc",
